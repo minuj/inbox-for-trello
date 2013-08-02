@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+    <title>Options</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="options">
+    <form>
+        <ul>
+            <li class="needsapi">
+			<button id="unauthorize" >Un-Authorize</button>
+            </li>
+            <li class="needsapi">
+                <label for="boards">
+                    Choose a Board
+                </label>
+                <select id="boards">
+
+                </select>
+            </li>
+            <li class="needsapi">
+                <label for="lists">
+                    Choose a List
+                </label>
+                <select id="lists">
+
+                </select>
+            </li>
+            <li>
+                <button id="save">Save</button>
+            </li>
+        </ul>
+    </form>
+    <div id="status"></div>
+    <div class="footer">
+    </div>
+    <script src="jquery-2.0.2.min.js"></script>
+    <script src="client.js"></script>
+    <script src="options.js"></script>
+</body>
+</html>

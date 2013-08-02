@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Inbox for Trello</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body class="popup">
+        <form>
+            <label>
+                Card Title
+            </label>
+            <input id="title" type="text" />
+
+            <label>
+                Description (optional)
+            </label>
+            <textarea id="url" cols="80" rows="4"></textarea>
+
+            <input id="board" type="hidden" />
+            <input id="list" type="hidden" />
+
+            <p>
+            Board: <em id="boardtext"></em> &nbsp;&nbsp;&nbsp;&nbsp;
+            List: <em id="listtext"></em>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#" id="options">Change List</a>
+            </p>
+
+            <button id="submit" tabindex="1">Send to Trello</button>
+        </form>
+        <script src="jquery-2.0.2.min.js"></script>
+        <script src="client.js"></script>
+        <script src="popup.js"></script>
+    </body>
+</html>
+
