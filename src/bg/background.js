@@ -6,8 +6,14 @@
 
 
 //example of using a message handler from the inject scripts
-chrome.extension.onMessage.addListener(
-  function(request, sender, sendResponse) {
-  	chrome.pageAction.show(sender.tab.id);
-    sendResponse();
-  });
+// chrome.extension.onMessage.addListener(
+//   function(request, sender, sendResponse) {
+//   	chrome.pageAction.show(sender.tab.id);
+//     sendResponse();
+//   });
+
+// function trelloApiUrl(path) {
+// 	return 'https://api.trello.com/1' + path + '?key=' + TB_APP_KEY + '&token=' + localStorage.trello_token;
+// }
+// console.log('background js ran')
+// console.log(trelloApiUrl());
