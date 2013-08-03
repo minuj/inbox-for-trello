@@ -16,7 +16,7 @@ document.addEventListener('TrelloTime', function () {
 
     $('#submit').on('click', function(e) {
         e.preventDefault();
-        Trello.authorize(options.trello_options);
+        Trello.authorize(options);
 
         var data = {
             name: $('#title').val(),
