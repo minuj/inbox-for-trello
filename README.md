@@ -21,4 +21,4 @@ I'll review all pull requests as quickly as possible. This is a side project so 
 
 Feel free to fork this and make it better/your own.
 
-Public Trello board tracking feature requests and progress
+[Public Trello board](https://trello.com/b/dIPhSFto/inbox-for-trello) tracking feature requests and progress
