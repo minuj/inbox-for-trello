@@ -9,10 +9,13 @@ Code is based off of [Chrome add link to Trello](https://github.com/omgmog/chrom
 
 How to install?
 ------------
-If you don't know how to download and install manually, best bet is to get it in the Chrome store.
-[Coming soon to Chrome Store](https://chrome.google.com/webstore/category/extensions)
+Clone/download this repo
+Go to Chrome Settings --> Extensions
+Activate "Developer mode"
+Click on "Load unpacked extension"
+Select the folder containing this extension
 
-After install, go to the settings to give the extension access to your trello account
+After install, go to the settings to give the extension access to your Trello account
 Then choose the Board and List you would like the notes to default to.
 
 Want to make it better?
